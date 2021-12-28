@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![desktop screenshot](./screenshot.jpg) -->
+![mobile screenshot](./screenshots/mobile.jpg)
 
 ### Links
 
-<!-- - Solution URL: [Github](https://github.com//joel-development/) -->
-- Live Site URL: [Add live site URL here](https://joel-development.github.io/frontendmentor---challenge-2)
+- Solution URL: [Github](https://github.com//joel-development/)
+- Live Site URL: [Github Pages](https://joel-development.github.io/frontendmentor---challenge-2)
 
 ## Built with
 
