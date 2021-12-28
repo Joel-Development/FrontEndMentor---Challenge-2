@@ -1,0 +1,28 @@
+.main-title
+{
+  text-align: center;
+  font-size: 35px;
+  color: $color-title;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  p
+  {
+    text-align: center;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+    
+      &:hover
+      {
+        transition: color .2s ease-in;
+        color: $primary-hover;
+        text-decoration: underline;
+      }
+    }
+  }
+}

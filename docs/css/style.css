@@ -1,3 +1,132 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 75px;
+  background-image: url(../assets/images/pattern-background-mobile.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  color: #7280a7;
+}
+
+img {
+  max-width: 100%;
+}
+
+.f-900 {
+  font-weight: 900;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 35px;
+  color: #1f2f56;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.attribution p {
+  text-align: center;
+}
+.attribution p a {
+  color: #3829e0;
+  text-decoration: none;
+}
+.attribution p a:hover {
+  transition: color 0.2s ease-in;
+  color: #9127f5;
+  text-decoration: underline;
+}
+
+.button--secondary, .button--primary {
+  display: block;
+  padding: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: #3829e0;
+  color: #fff;
+  box-shadow: 0 10px 10px #e0e8ff;
+  transition: background-color 0.2s ease-in;
+}
+.button--primary:hover {
+  background-color: #9127f5;
+  box-shadow: 0 10px 10px #e0e8ff;
+}
+.button--secondary {
+  color: #7280a7;
+  transition: color 0.2s ease-in;
+}
+.button--secondary:hover {
+  color: #1f2f56;
+}
+
+.card {
+  max-width: 90%;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.card__header img {
+  border-radius: 20px 20px 0 0;
+}
+.card__main {
+  padding: 10px 40px;
+}
+.card__main .main__title {
+  color: #1f2f56;
+}
+.card__main .main__title,
+.card__main .main__text,
+.card__main .button {
+  text-align: center;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: 50px 1fr max-content;
+  grid-template-rows: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #f5f7ff;
+  border-radius: 5px;
+}
+.plan__duration {
+  color: #1f2f56;
+}
+.plan__button {
+  color: #3829e0;
+  transition: color 0.2s ease-in;
+}
+.plan__button:hover {
+  color: #9127f5;
+  text-decoration: none;
+}
+.plan .icon {
+  width: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */

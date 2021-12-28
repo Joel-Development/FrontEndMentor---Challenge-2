@@ -1,0 +1,70 @@
+.card
+{
+  max-width: 90%;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+
+  background-color: $bg-card;
+  
+  border-radius: 20px;
+
+  &__header
+  {
+    img
+    {
+      border-radius: 20px 20px 0 0;
+    }
+  }
+  &__main
+  {
+    padding: 10px 40px;
+
+    .main__title
+    {
+      color: $color-title;
+    }
+    .main__title,
+    .main__text,
+    .button
+    {
+      text-align: center;
+    }
+  }
+}
+
+.plan
+{
+  display: grid;
+  grid-template-columns: 50px 1fr max-content;
+  grid-template-rows: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  background-color: $bg-plan;
+  border-radius: 5px;
+
+  &__duration
+  {
+    color: $color-title;
+  }
+
+  &__button
+  {
+    color: $primary-color;
+    transition: color .2s ease-in;
+
+    &:hover
+    {
+      color: $primary-hover;
+      text-decoration: none;
+    }
+  }
+
+  .icon
+  {
+    width: 40px;
+  }
+}

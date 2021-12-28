@@ -5,34 +5,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Order summary card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="header">
+    <h1 class="main-title">
+      Order summary card
+    </h1>
+  </header>
   <main class="main-content">
     <section class="card">
-      <header class="card__header"></header>
-      <main class="card__main">
-        <h2 class="main__title">
+      <header class="card__header">
+        <img src="assets/images/illustration-hero.svg" alt="hero illustration" class="header__img">
+      </header>
+      <div class="card__main">
+        <h2 class="main__title f-900">
           Order Summary
         </h2>
         <p class="main__text">
           You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
         </p>
-        <div class="card__plan">
+        <div class="plan">
           <div class="plan__icon">
             <img src="assets/images/icon-music.svg" alt="music illustration" class="icon">
           </div>
           <p class="plan__text">
-            <span class="plan__duration">Annual Plan</span>
+            <span class="plan__duration f-700">Annual Plan</span>
             <span class="plan__price">$59.99/year</span>
           </p>
-          <a href="#" class="plan__button">Change</a>
+          <a href="#" class="plan__button f-700">Change</a>
         </div>
         <div class="buttons">
-          <a href="#" class="button--primary">Proceed to Payment</a>
-          <a href="#" class="button--secondary">Cancel Order</a>
+          <a href="#" class="button button--primary">Proceed to Payment</a>
+          <a href="#" class="button button--secondary">Cancel Order</a>
         </div>
-      </main>
+      </div>
     </section>
   </main>
+  <footer class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/joel-development">Joel Sanchez</a>.
+    </p>
+  </footer>
 </body>
 </html>

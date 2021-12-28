@@ -1,0 +1,38 @@
+%button
+{
+  display: block;
+  padding: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1em;
+  font-weight: 700;
+  text-decoration: none
+}
+
+.button
+{
+  &--primary
+  {
+    @extend %button;
+    background-color: $primary-color;
+    color: $bg-card;
+    box-shadow: 0 10px 10px $bg-body;
+    transition: background-color .2s ease-in;
+    
+    &:hover
+    {
+      background-color: $primary-hover;
+      box-shadow: 0 10px 10px $bg-body;
+    }
+  }
+  &--secondary
+  {
+    @extend %button;
+    color: $color-text;
+    transition: color .2s ease-in;
+    &:hover
+    {
+      color: $secondary-hover;
+    }
+  }
+}
