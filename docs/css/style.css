@@ -28,6 +28,11 @@ img {
   font-weight: 700;
 }
 
+@media screen and (min-width: 860px) {
+  body {
+    background-image: url(../assets/images/pattern-background-desktop.svg);
+  }
+}
 .main-title {
   text-align: center;
   font-size: 35px;
@@ -85,7 +90,6 @@ img {
   width: 350px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
   background-color: #fff;
   border-radius: 20px;
 }
