@@ -5,8 +5,9 @@
 body {
   position: relative;
   min-height: 100vh;
-  margin: 0;
+  padding-top: 10vmin;
   padding-bottom: 75px;
+  margin: 0;
   background-image: url(../assets/images/pattern-background-mobile.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -50,6 +51,7 @@ img {
 .attribution p a {
   color: #3829e0;
   text-decoration: none;
+  font-weight: bold;
 }
 .attribution p a:hover {
   transition: color 0.2s ease-in;

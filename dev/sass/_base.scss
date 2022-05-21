@@ -7,8 +7,9 @@ body
 {
   position: relative;
   min-height: 100vh;
-  margin: 0;
+  padding-top: 10vmin;
   padding-bottom: 75px;
+  margin: 0;
 
   background-image: url(../assets/images/pattern-background-mobile.svg);
   background-attachment: fixed;
