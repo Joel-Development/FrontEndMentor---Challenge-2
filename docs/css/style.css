@@ -59,6 +59,11 @@ img {
   text-decoration: underline;
 }
 
+.sanchezdev-home img {
+  display: inline-block;
+  height: 1em;
+}
+
 .button--secondary, .button--primary {
   display: block;
   padding: 1em;
